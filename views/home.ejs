@@ -1,0 +1,11 @@
+<h2>FETCH</h2>
+
+<div>
+    <ul>
+        <% dados.forEach(dados => { %>
+        <li>
+            <%- dados.name.first %> <img src="<%- dados.picture.thumbnail %>">
+        </li>
+         <% }) %>
+    </ul>
+</div>
